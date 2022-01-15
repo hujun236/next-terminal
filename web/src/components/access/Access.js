@@ -300,7 +300,7 @@ class Access extends Component {
     }
 
     clientClipboardReceived = (stream, mimetype) => {
-        console.log('clientClipboardReceived', mimetype)
+        /*console.log('clientClipboardReceived', mimetype)
         let reader;
 
         // If the received data is text, read it as a simple string
@@ -337,7 +337,7 @@ class Access extends Component {
                     clipboardText: reader.getBlob()
                 })
             }
-        }
+        }*/
     };
 
     onKeyDown = (keysym) => {
